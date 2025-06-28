@@ -20,7 +20,7 @@ router.get("/:id", trouverCours);
 // PUT //:id - Mettre à jour un cours
 router.put("/:id", mettreAJourCours);
 
-// DELETE //:id - Supprimer un utilisateur
+// DELETE //:id - Supprimer un cours
 router.delete("/:id", supprimerCours);
 
 // GET //titre/:titre - Trouver par titre

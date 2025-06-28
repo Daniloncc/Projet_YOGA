@@ -1,5 +1,6 @@
 import User from "../db/models/User.js"
 import { log } from "console";
+
 export const afficherUsers = async (req, res) => {
     try {
         const users = await User.findAll();
