@@ -1,20 +1,20 @@
 [
-    {
-        "id": 1,
-        "nom": "Costa",
-        "prenom": "Melissa",
-        "telephone": "5141234567",
-        "courriel": "melissacc@admin.com",
-        "motDePasse": "Admin123",
-        "role": "admin"
-    },
-    {
-        "id": 2,
-        "nom": "Martin",
-        "prenom": "Luc",
-        "telephone": "5149876543",
-        "courriel": "luc@client.com",
-        "motDePasse": "Client123",
-        "role": "client"
-    }
+  {
+    "id": 1,
+    "nom": "Costa",
+    "prenom": "Melissa",
+    "telephone": "5141234567",
+    "courriel": "melissacc@admin.com",
+    "motDePasse": "Admin123",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "nom": "Martin",
+    "prenom": "Luc",
+    "telephone": "5149876543",
+    "courriel": "luc@client.com",
+    "motDePasse": "Client123",
+    "role": "client"
+  }
 ]

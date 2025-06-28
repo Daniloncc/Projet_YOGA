@@ -1,44 +1,44 @@
 [
-    {
-        "id": 1,
-        "titre": "Flexibilite",
-        "description": "Améliore ta souplesse musculaire, ta mobilité articulaire et ton bien-être général grâce à des exercices adaptés. Idéal pour prévenir les blessures et favoriser une meilleure posture au quotidien.",
-        "prix": 50.00,
-        "image": "flexibilite"
-    },
-    {
-        "id": 2,
-        "titre": "Mindfullness",
-        "description": "Apprends à te recentrer, à gérer le stress et à cultiver la pleine conscience. Un moment de calme et d'introspection pour t'aider à mieux vivre l'instant présent.",
-        "prix": 70.00,
-        "image": "mindfulness"
-    },
-    {
-        "id": 3,
-        "titre": "Roquet",
-        "description": "Un cours dynamique inspiré des mouvements explosifs. Idéal pour libérer l'énergie, travailler la coordination et renforcer les muscles en profondeur avec des exercices courts et intenses.",
-        "prix": 150.00,
-        "image": "roquet"
-    },
-    {
-        "id": 4,
-        "titre": "Équilibre",
-        "description": "Renforce ton centre de gravité, améliore ta posture et ta stabilité. Ce cours t'aide à mieux gérer ton corps dans l'espace, tout en favorisant un esprit calme et ancré.",
-        "prix": 70.00,
-        "image": "equilibre"
-    },
-    {
-        "id": 5,
-        "titre": "Ashtanga",
-        "description": "Une pratique de yoga structurée et énergique, avec des enchaînements précis. Idéal pour gagner en souplesse, force et concentration, tout en travaillant sur la respiration et le mental.",
-        "prix": 110.00,
-        "image": "ashtanga"
-    },
-    {
-        "id": 6,
-        "titre": "Inversion",
-        "description": "Explore le monde à l'envers avec les postures d'inversion. Améliore la circulation, développe la confiance et renforce le haut du corps en toute sécurité avec des techniques guidées.",
-        "prix": 90.00,
-        "image": "inversion"
-    }
+  {
+    "id": 1,
+    "titre": "Flexibilite",
+    "description": "Améliore ta souplesse musculaire, ta mobilité articulaire et ton bien-être général grâce à des exercices adaptés. Idéal pour prévenir les blessures et favoriser une meilleure posture au quotidien.",
+    "prix": "508",
+    "image": "flexibilite"
+  },
+  {
+    "id": 2,
+    "titre": "Mindfullness",
+    "description": "Apprends à te recentrer, à gérer le stress et à cultiver la pleine conscience. Un moment de calme et d'introspection pour t'aider à mieux vivre l'instant présent.",
+    "prix": 70,
+    "image": "mindfulness"
+  },
+  {
+    "id": 3,
+    "titre": "Roquet",
+    "description": "Un cours dynamique inspiré des mouvements explosifs. Idéal pour libérer l'énergie, travailler la coordination et renforcer les muscles en profondeur avec des exercices courts et intenses.",
+    "prix": 150,
+    "image": "roquet"
+  },
+  {
+    "id": 4,
+    "titre": "Équilibre",
+    "description": "Renforce ton centre de gravité, améliore ta posture et ta stabilité. Ce cours t'aide à mieux gérer ton corps dans l'espace, tout en favorisant un esprit calme et ancré.",
+    "prix": 70,
+    "image": "equilibre"
+  },
+  {
+    "id": 5,
+    "titre": "Ashtanga",
+    "description": "Une pratique de yoga structurée et énergique, avec des enchaînements précis. Idéal pour gagner en souplesse, force et concentration, tout en travaillant sur la respiration et le mental.",
+    "prix": 110,
+    "image": "ashtanga"
+  },
+  {
+    "id": 6,
+    "titre": "Inversion",
+    "description": "Explore le monde à l'envers avec les postures d'inversion. Améliore la circulation, développe la confiance et renforce le haut du corps en toute sécurité avec des techniques guidées.",
+    "prix": 90,
+    "image": "inversion"
+  }
 ]
