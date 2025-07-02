@@ -10,13 +10,13 @@ router.get("/", (req, res) => {
 });
 
 // Middleware de validation
-const validateRequest = (schema) => (req, res, next) => {
-    const { error } = schema.validate(req.body);
-    if (error) {
-        return res.status(400).json({ error: error.details[0].message });
-    }
-    next();
-};
+// const validateRequest = (schema) => (req, res, next) => {
+//     const { error } = schema.validate(req.body);
+//     if (error) {
+//         return res.status(400).json({ error: error.details[0].message });
+//     }
+//     next();
+// };
 
 router.use("/users", usersRoutes);
 router.use("/cours", coursRoutes);
