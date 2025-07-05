@@ -10,25 +10,33 @@ import {
 
 const router = express.Router();
 
-// GET // afficher les utilisateurs
+
+// Routes spécifiques d'abord
+router.get("/courriel/:courriel", trouverCourriel);
+
+// Routes générales ensuite
 router.get("/", afficherUsers);
-
-// GET // ajouter un utilisateur
 router.post("/", creerUser);
-
-// GET //:id - Obtenir un utilisateur par id
 router.get("/:id", trouverUser);
-
-// GET //:id - Obtenir un utilisateur par courriel
-router.get("/:courriel", trouverCourriel);
-
-// PUT //:id - Mettre à jour un utilisateur
 router.put("/:id", mettreAJourUser);
-
-// DELETE //:id - Supprimer un utilisateur
 router.delete("/:id", supprimerUser);
 
-// GET //courriel/:courriel - Trouver par courriel
-router.get("/courriel/:courriel", trouverCourriel);
+// // GET // afficher les utilisateurs
+// router.get("/", afficherUsers);
+
+// // GET // ajouter un utilisateur
+// router.post("/", creerUser);
+
+// // GET //:id - Obtenir un utilisateur par id
+// router.get("/:id", trouverUser);
+
+// // PUT //:id - Mettre à jour un utilisateur
+// router.put("/:id", mettreAJourUser);
+
+// // DELETE //:id - Supprimer un utilisateur
+// router.delete("/:id", supprimerUser);
+
+// // GET //courriel/:courriel - Trouver par courriel
+// router.get("/courriel/:courriel", trouverCourriel);
 
 export default router;

@@ -5,7 +5,7 @@
     "prenom": "Melissa",
     "telephone": "5141234567",
     "courriel": "melissacc@admin.com",
-    "motDePasse": "Admin123",
+    "mot-pass": "Admin123",
     "role": "admin"
   },
   {
@@ -14,7 +14,7 @@
     "prenom": "Luc",
     "telephone": "5149876543",
     "courriel": "luc@client.com",
-    "motDePasse": "Client123",
+    "mot-pass": "Client123",
     "role": "client"
   },
   {
