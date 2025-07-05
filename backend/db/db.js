@@ -53,7 +53,7 @@ export default class JSONdb {
 
     async findByTitre(titre) {
         // Cherche dans le tableau un élément dont le titre correspond
-        return this.data.find((item) => item.titre == titre) || null;
+        return this.data.find((item) => item.cours == titre) || null;
     }
 
     async findAll() {

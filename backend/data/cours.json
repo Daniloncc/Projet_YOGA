@@ -1,44 +1,70 @@
 [
   {
     "id": 1,
-    "titre": "Flexibilite",
-    "description": "Améliore ta souplesse musculaire, ta mobilité articulaire et ton bien-être général grâce à des exercices adaptés. Idéal pour prévenir les blessures et favoriser une meilleure posture au quotidien.",
-    "prix": 508,
-    "image": "flexibilite"
+    "cours": "Flexibilite",
+    "style": "tous",
+    "prix": "508,00",
+    "image": "images/flexibilite.jpg",
+    "description": "Améliore ta souplesse musculaire, ta mobilité articulaire et ton bien-être général grâce à des exercices adaptés. Idéal pour prévenir les blessures et favoriser une meilleure posture au quotidien."
   },
   {
     "id": 2,
-    "titre": "Mindfullness",
-    "description": "Apprends à te recentrer, à gérer le stress et à cultiver la pleine conscience. Un moment de calme et d'introspection pour t'aider à mieux vivre l'instant présent.",
+    "cours": "Mindfullness",
+    "style": "tous",
     "prix": 70,
-    "image": "mindfulness"
+    "image": "images/mindfulness.jpg",
+    "description": "Apprends à te recentrer, à gérer le stress et à cultiver la pleine conscience. Un moment de calme et d'introspection pour t'aider à mieux vivre l'instant présent."
   },
   {
     "id": 3,
-    "titre": "Roquet",
-    "description": "Un cours dynamique inspiré des mouvements explosifs. Idéal pour libérer l'énergie, travailler la coordination et renforcer les muscles en profondeur avec des exercices courts et intenses.",
+    "cours": "Roquet",
+    "style": "avance",
     "prix": 150,
-    "image": "roquet"
+    "image": "images/roquet.jpg",
+    "description": "Un cours dynamique inspiré des mouvements explosifs. Idéal pour libérer l'énergie, travailler la coordination et renforcer les muscles en profondeur avec des exercices courts et intenses."
   },
   {
     "id": 4,
-    "titre": "Équilibre",
-    "description": "Renforce ton centre de gravité, améliore ta posture et ta stabilité. Ce cours t'aide à mieux gérer ton corps dans l'espace, tout en favorisant un esprit calme et ancré.",
+    "cours": "Équilibre",
+    "style": "intermediaire",
     "prix": 70,
-    "image": "equilibre"
+    "image": "images/equilibre.jpg",
+    "description": "Renforce ton centre de gravité, améliore ta posture et ta stabilité. Ce cours t'aide à mieux gérer ton corps dans l'espace, tout en favorisant un esprit calme et ancré."
   },
   {
     "id": 5,
-    "titre": "Ashtanga",
-    "description": "Une pratique de yoga structurée et énergique, avec des enchaînements précis. Idéal pour gagner en souplesse, force et concentration, tout en travaillant sur la respiration et le mental.",
+    "cours": "Ashtanga",
+    "style": "intermediaire",
     "prix": 110,
-    "image": "ashtanga"
+    "image": "images/ashtanga.jpg",
+    "description": "Une pratique de yoga structurée et énergique, avec des enchaînements précis. Idéal pour gagner en souplesse, force et concentration, tout en travaillant sur la respiration et le mental."
   },
   {
     "id": 6,
-    "titre": "Inversion",
-    "description": "Explore le monde à l'envers avec les postures d'inversion. Améliore la circulation, développe la confiance et renforce le haut du corps en toute sécurité avec des techniques guidées.",
-    "prix": 90,
-    "image": "inversion"
+    "cours": "Inversion",
+    "style": "Avance",
+    "prix": "90,00",
+    "image": "images/inversion.jpg",
+    "description": "Explore le monde à l'envers avec les postures d'inversion. Améliore la circulation, développe la confiance et renforce le haut du corps en toute sécurité avec des techniques guidées."
+  },
+  {
+    "cours": "test rr",
+    "style": "qweqwe",
+    "prix": "563,00",
+    "image": "images/inversion.jpg",
+    "description": "dasds sdsdasd fdfdfd",
+    "id": "0197d750-4386-758a-a331-d9cbe19f6577",
+    "createdAt": "2025-07-04T21:20:51.079Z",
+    "updatedAt": "2025-07-04T21:20:51.079Z"
+  },
+  {
+    "cours": "test",
+    "style": "test",
+    "prix": "70,00",
+    "image": "fddfgdfgdfgdfg",
+    "description": "asdasdasdasd asdas d sdasdasd test editer",
+    "id": "0197d798-f018-72bf-ab91-8592bb77d7f5",
+    "createdAt": "2025-07-04T22:40:13.849Z",
+    "updatedAt": "2025-07-04T22:40:13.849Z"
   }
 ]

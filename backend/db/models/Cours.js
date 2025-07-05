@@ -3,8 +3,8 @@ import { log } from "console";
 const coursDB = new JSONdb("cours.json");
 
 export default class Cours {
-    static async findByTitre(titre) {
-        return coursDB.findByTitre(titre);
+    static async findByTitre(cours) {
+        return coursDB.findByTitre(cours);
     }
 
     static async findAll() {
@@ -12,7 +12,10 @@ export default class Cours {
     }
 
     static async create(userData) {
-        const existingCours = await coursDB.findByTitre(userData.titre);
+
+        const existingCours = await coursDB.findByTitre(userData.cours);
+        console.log(existingCours);
+
         if (existingCours) {
             throw new Error("Cours deja existant!");
         }
@@ -20,15 +23,18 @@ export default class Cours {
         return coursDB.insert(userData);
     }
 
+
+
     static async update(id, updates) {
-        if (updates.titre) {
-            const existingTitre = await coursDB.findByTitre(updates.titre);
-            console.log(existingTitre.id);
-            console.log(id);
-            if (existingTitre.id != id) {
-                throw new Error("Ce cours existe deja!");
+        if (updates.cours) {
+            const existingTitre = await coursDB.findByTitre(updates.cours);
+
+            // S'il existe un autre cours avec le même nom mais un id différent
+            if (existingTitre && String(existingTitre.id) !== String(id)) {
+                throw new Error("Ce cours existe déjà !");
             }
         }
+
         return coursDB.update(id, updates);
     }
 

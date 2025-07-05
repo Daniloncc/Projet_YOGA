@@ -19,11 +19,18 @@ app.use(cors());
 
 // Middleware Morgan : log les requêtes HTTP dans la console
 app.use(morgan("short"));
-
+app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
 app.use(routes);
+
+
+
+////////// eesaye dajouter une image
+// app.use(express.json({ limit: "5mb" }));
+// app.use("/images", express.static(path.join("backend/public/images")));
+// app.use("/api", uploadRoute);
+
 
 // Démarrage du serveur : écoute sur le port défini et affiche un message de confirmation
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`));

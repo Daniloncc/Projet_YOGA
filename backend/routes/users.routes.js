@@ -16,8 +16,11 @@ router.get("/", afficherUsers);
 // GET // ajouter un utilisateur
 router.post("/", creerUser);
 
-// GET //:id - Obtenir un utilisateur
+// GET //:id - Obtenir un utilisateur par id
 router.get("/:id", trouverUser);
+
+// GET //:id - Obtenir un utilisateur par courriel
+router.get("/:courriel", trouverCourriel);
 
 // PUT //:id - Mettre à jour un utilisateur
 router.put("/:id", mettreAJourUser);

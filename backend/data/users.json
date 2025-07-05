@@ -16,5 +16,49 @@
     "courriel": "luc@client.com",
     "motDePasse": "Client123",
     "role": "client"
+  },
+  {
+    "nom": "E COSTA",
+    "prenom": "DANILO",
+    "telephone": "5148917949",
+    "courriel": "dancc86@gmail.com",
+    "mot-pass": "123qwe",
+    "role": "client",
+    "id": "0197dbaa-d67e-76fc-a070-eaef5fd3fb4f",
+    "createdAt": "2025-07-05T17:38:15.807Z",
+    "updatedAt": "2025-07-05T17:38:15.807Z"
+  },
+  {
+    "nom": "E COSTA",
+    "prenom": "DANILO",
+    "telephone": "5148917949",
+    "courriel": "dancc@gmail.com",
+    "mot-pass": "123qwe",
+    "role": "client",
+    "id": "0197dbac-5fe9-77d5-b1cb-96d4e1590f7d",
+    "createdAt": "2025-07-05T17:39:56.521Z",
+    "updatedAt": "2025-07-05T17:39:56.521Z"
+  },
+  {
+    "nom": "Nunes Costa e Costa",
+    "prenom": "Danilo",
+    "telephone": "1998090203",
+    "courriel": "dancc8666@gmail.com",
+    "mot-pass": "123qwe",
+    "role": "client",
+    "id": "0197dbad-e38c-734d-a082-6bcfca0bf1dd",
+    "createdAt": "2025-07-05T17:41:35.757Z",
+    "updatedAt": "2025-07-05T17:41:35.757Z"
+  },
+  {
+    "nom": "E COSTA",
+    "prenom": "DANILO",
+    "telephone": "5148917949",
+    "courriel": "dancc86111@gmail.com",
+    "mot-pass": "123qwe",
+    "role": "client",
+    "id": "0197dbb4-52ae-718f-98b9-a499f8622b7c",
+    "createdAt": "2025-07-05T17:48:37.423Z",
+    "updatedAt": "2025-07-05T17:48:37.423Z"
   }
 ]
