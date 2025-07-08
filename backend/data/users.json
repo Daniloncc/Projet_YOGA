@@ -60,5 +60,16 @@
     "id": "0197dbb4-52ae-718f-98b9-a499f8622b7c",
     "createdAt": "2025-07-05T17:48:37.423Z",
     "updatedAt": "2025-07-05T17:48:37.423Z"
+  },
+  {
+    "nom": "breau",
+    "prenom": "camilleee",
+    "telephone": "5148917949",
+    "courriel": "camille@gmail.com",
+    "mot-pass": "123qwe",
+    "role": "client",
+    "id": "0197e641-7a12-718f-903c-2dcee1894f8d",
+    "createdAt": "2025-07-07T18:59:00.248Z",
+    "updatedAt": "2025-07-07T18:59:00.248Z"
   }
 ]
